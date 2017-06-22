@@ -8,12 +8,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UIWebViewDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        self.navigationController?.setNavigationBarHidden(true, animated: false)
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,15 +20,16 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    @IBAction func googleBtnClicked(sender: UIButton) {
+        let webView = WebViewController()
+        webView.url = URL.init(string: "http://www.google.com")
+        self.navigationController?.pushViewController(webView, animated: true)
     }
-    */
+
+    @IBAction func youtubeBtnClicked(sender: UIButton) {
+        let webView = WebViewController()
+        webView.url = URL.init(string: "http://www.youtube.com")
+        self.navigationController?.pushViewController(webView, animated: true)
+    }
 
 }

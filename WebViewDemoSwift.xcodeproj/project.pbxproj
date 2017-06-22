@@ -12,6 +12,8 @@
 		E5E88E191EFB6C4D003B0FC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5E88E171EFB6C4D003B0FC7 /* LaunchScreen.storyboard */; };
 		E5E88E221EFB6C89003B0FC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E88E201EFB6C89003B0FC7 /* ViewController.swift */; };
 		E5E88E231EFB6C89003B0FC7 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5E88E211EFB6C89003B0FC7 /* ViewController.xib */; };
+		E5E88E2A1EFB7AD6003B0FC7 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E88E281EFB7AD6003B0FC7 /* WebViewController.swift */; };
+		E5E88E2B1EFB7AD6003B0FC7 /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5E88E291EFB7AD6003B0FC7 /* WebViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		E5E88E1A1EFB6C4D003B0FC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E5E88E201EFB6C89003B0FC7 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E5E88E211EFB6C89003B0FC7 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		E5E88E281EFB7AD6003B0FC7 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		E5E88E291EFB7AD6003B0FC7 /* WebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				E5E88E0E1EFB6C4D003B0FC7 /* AppDelegate.swift */,
 				E5E88E201EFB6C89003B0FC7 /* ViewController.swift */,
 				E5E88E211EFB6C89003B0FC7 /* ViewController.xib */,
+				E5E88E281EFB7AD6003B0FC7 /* WebViewController.swift */,
+				E5E88E291EFB7AD6003B0FC7 /* WebViewController.xib */,
 				E5E88E151EFB6C4D003B0FC7 /* Assets.xcassets */,
 				E5E88E171EFB6C4D003B0FC7 /* LaunchScreen.storyboard */,
 				E5E88E1A1EFB6C4D003B0FC7 /* Info.plist */,
@@ -127,6 +133,7 @@
 				E5E88E191EFB6C4D003B0FC7 /* LaunchScreen.storyboard in Resources */,
 				E5E88E231EFB6C89003B0FC7 /* ViewController.xib in Resources */,
 				E5E88E161EFB6C4D003B0FC7 /* Assets.xcassets in Resources */,
+				E5E88E2B1EFB7AD6003B0FC7 /* WebViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5E88E221EFB6C89003B0FC7 /* ViewController.swift in Sources */,
+				E5E88E2A1EFB7AD6003B0FC7 /* WebViewController.swift in Sources */,
 				E5E88E0F1EFB6C4D003B0FC7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,7 +205,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -242,7 +250,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
